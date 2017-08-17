@@ -1,4 +1,4 @@
-import ActionTypes, {PayloadAction} from './types'
+import ActionTypes, { PayloadAction } from './types'
 
 // changeSignInFrom
 export interface ChangeSignInFromPayload {

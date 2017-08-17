@@ -1,10 +1,10 @@
 import * as React from 'react'
 import * as CSSModules from 'react-css-modules'
-import {connect} from 'react-redux'
-import {History} from 'history'
-import {Paper, RaisedButton, TextField} from 'material-ui'
-import {changeSignInFrom, ChangeSignInFromAction} from '../../actions/signIn'
-import {StoreState, SignInFrom} from '../../reducers/types'
+import { connect } from 'react-redux'
+import { History } from 'history'
+import { Paper, RaisedButton, TextField } from 'material-ui'
+import { changeSignInFrom, ChangeSignInFromAction } from '../../actions/signIn'
+import { StoreState, SignInFrom } from '../../reducers/types'
 
 const styles = require('./index.scss')
 
