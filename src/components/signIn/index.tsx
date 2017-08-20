@@ -51,7 +51,8 @@ class Signin extends React.Component<Props, {}> {
     }
 
     private signIn = () => {
-        this.props.history.push('/home')
+        this.props.history.push('/data')
+        // this.props.history.push('/home')
     }
 }
 

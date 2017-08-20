@@ -21,7 +21,7 @@ class Sider extends React.Component<Poprs, {}> {
         </ul>
         <ul styleName="footer">
           <li>
-            <NavLink to="/signin" styleName="link">Sign Out</NavLink>
+            <NavLink to="/signin" styleName="link">Sign In</NavLink>
           </li>
         </ul>
       </div>

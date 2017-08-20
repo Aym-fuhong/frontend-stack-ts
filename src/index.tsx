@@ -15,6 +15,8 @@ import Signin from './components/signIn'
 import Sider from './components/sider'
 import Home from './components/home'
 import Profile from './components/profile'
+import Data from './components/data'
+import Title from './components/title'
 
 import reducers from './reducers'
 import registerServiceWorker from './registerServiceWorker'
@@ -36,13 +38,17 @@ ReactDOM.render(
             <MuiThemeProvider>
                 <App>
                     <Switch>
-                        <Route exact={true} path="/signin" component={Signin}/>
                         <Route path="/" component={Sider}/>
                     </Switch>
-                    <div style={{marginLeft: 120}}>
+                    <div >
+                       <Route path="/" component={Title}/>
+                    </div>
+                    <div style={{marginLeft: 122, marginTop: 10}}>
                         <Route path="/" component={Home}/>
+                        <Route exact={true} path="/signin" component={Signin}/>
                         <Route path="/home" component={Home}/>
                         <Route path="/profile" component={Profile}/>
+                        <Route path="/data" component={Data}/>
                     </div>
                 </App>
             </MuiThemeProvider>
